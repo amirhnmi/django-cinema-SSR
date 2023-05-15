@@ -1,8 +1,9 @@
 
-/* navbar--------------------- */
-/* .navbar {
+/* navbar---------------------  */ 
+ .navbar {
     padding-top: 0px;
-}
+    
+} 
 .navbar-position{
     background-color: azure;
     position: fixed;
@@ -15,6 +16,7 @@
 }
 
 .search-box{
+    margin-top: 10px;
     margin-right: 25px;
     display:flex;
     align-items: center;
@@ -32,13 +34,13 @@
     font-size: 17px;
     color: #666;
     align-items: center;
-} */
+}  
 
 
 /* sub header -----------------*/
 
-/* .subheader-position{
-    background-color: rgb(6, 8, 8);
+.subheader-position{
+    background-color: azure;
     position: fixed;
     width: 10%;
     margin-top: 3%;
@@ -56,14 +58,31 @@
     height: 100vh;
     margin-top: 0.5rem;
     
-} */
+}
+.subheader-a-tag{
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+    padding:0px 10px;
+}
+.subheader-a-tag:hover{
+    color: #333;
+}
 
+/* body ---------------- */ 
+.body{
+    margin-top: 6%;
 
-/* body ---------------- */
-
-/* .body{
-    margin-top: 7%;
-
+}
+.lopoto-father{
+    position: relative;
+}
+.lopoto-child{
+    position: absolute;
+    width: 16%;
+    top: 12px;
+    right: 50px;
+    border-radius: 20px;
 }
 
 .carousel-img{
@@ -86,12 +105,12 @@
 
 .categories-card{
     width: 12rem;
-} */
+} 
 
 
 /*magazine ------------------- */
 
-/* .magazine a{
+.magazine a{
     display:flex;
     justify-content: space-between;
     background-color:rgb(241, 240, 240);
@@ -111,7 +130,7 @@
     align-items: center;
 } */
 
-/* sales table ------------------- */
+sales table -------------------
 
 .salestableandnews{
     display: flex;

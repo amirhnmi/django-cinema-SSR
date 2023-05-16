@@ -4,7 +4,7 @@ from django.db import models
 
 class ArtAndExpriens(models.Model):
     title = models.CharField(max_length=200)
-    image = models.ImageField(upload_to="screening")
+    image = models.ImageField(upload_to="artAndExpriens")
     director = models.CharField(max_length=200)
     actors = models.TextField()
     producer = models.CharField(max_length=200)

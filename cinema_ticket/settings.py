@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "artAndExpriens",
     "comedyTheater",
     "childrenTheater",
+    "salesTable",
+    "news",
 ]
 
 MIDDLEWARE = [

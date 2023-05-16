@@ -1,45 +1,45 @@
-
-/* navbar---------------------  */ 
- .navbar {
+/* navbar---------------------  */
+.navbar {
     padding-top: 0px;
-    
-} 
-.navbar-position{
+
+}
+
+.navbar-position {
     background-color: azure;
     position: fixed;
     width: 10%;
-    height: 11%; 
+    height: 11%;
     margin-top: 3%;
     z-index: 4;
     color: #666;
     font-size: 14px;
 }
 
-.search-box{
+.search-box {
     margin-top: 10px;
     margin-right: 25px;
-    display:flex;
+    display: flex;
     align-items: center;
     font-size: 12px;
 }
 
-.search-input{
+.search-input {
     border: 0;
     margin-right: 10px;
     outline: none;
 }
 
-.search-icon{
+.search-icon {
     margin-right: 8px;
     font-size: 17px;
     color: #666;
     align-items: center;
-}  
+}
 
 
 /* sub header -----------------*/
 
-.subheader-position{
+.subheader-position {
     background-color: azure;
     position: fixed;
     width: 10%;
@@ -48,7 +48,8 @@
     color: #666;
     font-size: 14px;
 }
-.subheader-ul{
+
+.subheader-ul {
     margin-top: 10px;
     padding-top: 10px;
     align-items: flex-end;
@@ -57,27 +58,31 @@
 .scrollspy-example {
     height: 100vh;
     margin-top: 0.5rem;
-    
+
 }
-.subheader-a-tag{
+
+.subheader-a-tag {
     color: #666;
     font-size: 14px;
     text-decoration: none;
-    padding:0px 10px;
+    padding: 0px 10px;
 }
-.subheader-a-tag:hover{
+
+.subheader-a-tag:hover {
     color: #333;
 }
 
-/* body ---------------- */ 
-.body{
+/* body ---------------- */
+.body {
     margin-top: 6%;
 
 }
-.lopoto-father{
+
+.lopoto-father {
     position: relative;
 }
-.lopoto-child{
+
+.lopoto-child {
     position: absolute;
     width: 16%;
     top: 12px;
@@ -85,35 +90,36 @@
     border-radius: 20px;
 }
 
-.carousel-img{
+.carousel-img {
     width: 21%;
     margin: 10px;
     box-shadow: 1px 2px 5px #999;
     border-radius: 10px;
 }
-.carousel-father{
+
+.carousel-father {
     position: relative;
 
 }
 
-.crousel-discription{
+.crousel-discription {
     font-weight: bolder;
     color: rgb(217, 255, 82);
-    
+
 }
 
 
-.categories-card{
+.categories-card {
     width: 12rem;
-} 
+}
 
 
 /*magazine ------------------- */
 
-.magazine a{
-    display:flex;
+.magazine a {
+    display: flex;
     justify-content: space-between;
-    background-color:rgb(241, 240, 240);
+    background-color: rgb(241, 240, 240);
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
@@ -121,24 +127,23 @@
     color: #666;
 }
 
-.magazine a .right{
+.magazine a .right {
     display: flex;
     align-items: center;
 }
-.magazine a .left{
+
+.magazine a .left {
     display: flex;
     align-items: center;
-} */
+}
 
-sales table -------------------
-
-.salestableandnews{
+.salestable .salestableandnews {
     display: flex;
     background-color: rgb(241, 240, 240);
     border-radius: 20px;
 }
 
-.salestable-img{
+.salestable-img {
     width: 30%;
     padding: 8px;
     border-radius: 20px;
@@ -147,14 +152,14 @@ sales table -------------------
 
 /* news ---------------------- */
 
-.news-img{
+.news-img {
     width: 90px;
     height: 90px;
     padding: 8px;
     border-radius: 20px;
 }
 
-.news-container{
+.news-container {
     display: inline-flex;
 }
 
@@ -163,11 +168,12 @@ sales table -------------------
     justify-content: space-between;
 }
 
-.news-a-tag{
+.news-a-tag {
     text-decoration: none;
     color: #666;
 }
-.news-a-tag:hover{
+
+.news-a-tag:hover {
     color: #333;
     background-color: rgb(224, 220, 220);
     border-radius: 15px;
@@ -175,28 +181,30 @@ sales table -------------------
 
 /* footer ---------------------- */
 
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
     background-color: #343542;
 }
 
-.footer-a-tag{
+.footer-a-tag {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 5px;
     padding-top: 10px;
     text-decoration: none;
     color: aliceblue;
     font-size: 11px;
 }
-.footer-a-tag:hover{
-    background-color: rgb(167, 133, 133);
+
+.footer-a-tag:hover {
+    background-color: rgb(235, 21, 21);
     color: #111;
     border-radius: 50px;
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
     align-items: center;
     padding: 7px;
@@ -204,9 +212,9 @@ sales table -------------------
     color: aliceblue;
     font-size: 15px;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
     background-color: rgb(167, 133, 133);
     color: #111;
     border-radius: 50px;
 }
-

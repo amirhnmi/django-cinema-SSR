@@ -1,11 +1,11 @@
-@font-face{
+@font-face {
     font-family: 'iran';
-    src: url('static/fonts/iran.ttf');
-}
+    src: url('../fonts/iran.ttf') format('truetype');
+  }
 
 *{
     direction: rtl;
-    font-family:fantasy;
+    font-family:'iran';
     box-sizing: border-box;
 }
 

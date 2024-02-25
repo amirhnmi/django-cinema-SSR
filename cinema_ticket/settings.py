@@ -90,8 +90,8 @@ DATABASES = {
     'default': {  
         'ENGINE': 'django.db.backends.mysql',  
         'NAME': 'cinematicket',  
-        'USER': 'root',  
-        'PASSWORD': 'manamirhastam',  
+        'USER': '***',  
+        'PASSWORD': '***',  
         'HOST': '127.0.0.1',  
         'PORT': '3306',  
         'OPTIONS': {  
@@ -160,5 +160,5 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "mr.arhnmi@gmail.com"
-EMAIL_HOST_PASSWORD = "ncxywemnbtswysad"
+EMAIL_HOST_USER = "***"
+EMAIL_HOST_PASSWORD = "***"
